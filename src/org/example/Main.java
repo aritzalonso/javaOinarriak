@@ -8,5 +8,7 @@ public class Main {
         ibilgailua.erakutsiDatuak();
         ibilgailua.setUrtea(-100);
         ibilgailua.erakutsiDatuak();
+        Kotxea kotxea = new Kotxea ("SEAT", "LEON" , 2000);
+        kotxea.erakutsiDatuak();
     }
     }
