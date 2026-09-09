@@ -2,10 +2,11 @@ package org.example;
 
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Ibilgailua ibilgailua = new Ibilgailua("SEAT", "LEON" , 2000);
 
         ibilgailua.erakutsiDatuak();
-
+        ibilgailua.setUrtea(-100);
+        ibilgailua.erakutsiDatuak();
     }
     }
