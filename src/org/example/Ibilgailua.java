@@ -42,9 +42,8 @@ public class Ibilgailua {
 
 
 
-    public void erakutsiDatuak(){
-        System.out.println("ibilgailua: " + marka + " " + modeloa + " " + urtea);
-
-
+    public String erakutsiDatuak(){
+        return this.marka + " " + this.modeloa + " " + this.urtea;
     }
+
 }
