@@ -25,7 +25,6 @@ public class Ibilgailua {
             }
     }
 
-
     public String getModeloa() {
         return modeloa;
     }
@@ -40,10 +39,11 @@ public class Ibilgailua {
        this.urtea = urtea;
    }
 
-
-
     public String erakutsiDatuak(){
         return this.marka + " " + this.modeloa + " " + this.urtea;
     }
 
+    public void mugitu() {
+
+    }
 }
